@@ -1,0 +1,11 @@
+@model List<Category>
+
+    <div class="menu">
+        <ul>
+
+            @foreach (var item in Model)
+            {
+            <li><a href="/">@item.Name</a></li>
+            }
+        </ul>
+    </div>

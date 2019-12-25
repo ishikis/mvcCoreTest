@@ -2954,6 +2954,31 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper"
         }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MenuViewComponentTagHelper",
+        "AssemblyName": "CourseApp",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:menu",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Menu"
+        }
       }
     ],
     "CSharpLanguageVersion": 703
@@ -2968,6 +2993,11 @@
     {
       "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\Course\\Details.cshtml",
       "TargetPath": "Views\\Course\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Menu\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2993,6 +3023,11 @@
     {
       "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L04PartitialView\\About.cshtml",
       "TargetPath": "Views\\L04PartitialView\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L05ViewComponent\\Index.cshtml",
+      "TargetPath": "Views\\L05ViewComponent\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
