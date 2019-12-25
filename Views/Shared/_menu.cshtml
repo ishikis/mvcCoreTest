@@ -1,7 +1,11 @@
-<div class="menu">
+@model List<Category>
+
+    <div class="menu">
     <ul>
-        <li><a href="/">Category 1</a></li>
-        <li><a href="/">Category 2</a></li>
-        <li><a href="/">Category 3</a></li>
+
+        @foreach (var item in Model)
+        {
+            <li><a href="/">@item.Name</a></li>
+        }
     </ul>
 </div>

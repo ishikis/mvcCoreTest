@@ -2971,13 +2971,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\Shared\\_menu.cshtml",
+      "TargetPath": "Views\\Shared\\_menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L03PassingDataToViews\\index.cshtml",
+      "TargetPath": "Views\\L03PassingDataToViews\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\Course\\Apply.cshtml",
       "TargetPath": "Views\\Course\\Apply.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L04PartitialView\\About.cshtml",
+      "TargetPath": "Views\\L04PartitialView\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L04PartitialView\\Index.cshtml",
+      "TargetPath": "Views\\L04PartitialView\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
