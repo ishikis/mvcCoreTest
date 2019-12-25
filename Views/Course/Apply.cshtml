@@ -1,0 +1,49 @@
+@model Student
+<html>
+    <head> 
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    </head>
+    <body>
+        <div class="container m-4">
+            <div class="card mx-auto" style="width:500px">
+                <div class="card-header">
+                    Başvuru Formu
+                </div>
+                <div class="card-body">
+                    @* <form action="/course/apply"> mvc tah helper ekledigimiz için 
+                    kendi  controllerini otomatik buluyor *@
+
+                    <form asp-action="apply">
+                        <div asp-validation-summary="All"></div>
+                        <div class="form-group">
+                            <label asp-for="Name"></label>
+                            <input asp-for="Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email">mail </label>
+                            <input asp-for="Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Phone">telefon </label>
+                            <input asp-for="Phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Confirm">Kursa katılacakmısınız </label>
+                            <select asp-for="Confirm"  class="form-control">
+                                <option value="">Seçiniz</option>
+                                <option value="true">Evet</option>
+                                <option value="false">Hayır</option>
+                            </select>
+                        <div class="form-group">
+                            <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+     </body>
+</html>
+ 

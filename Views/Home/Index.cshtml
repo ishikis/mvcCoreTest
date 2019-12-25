@@ -1,0 +1,25 @@
+<html>
+    <head> 
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    </head>
+    <body>
+        <div class="container m-4">
+            <div class="card mx-auto" style="width:500px">
+                <div class="card-header">
+                @ViewBag.Greeting @ViewBag.UserName , Nasılsın
+                </div>
+                <div class="card-body">
+                    <p class="card text">
+                        güzel kurs
+                        <p><a class="btn btn-primary btn-block" href="/course/apply2">Başvuru yap(Normal).</a></p>
+                        <p><a class="btn btn-primary btn-block" asp-action="apply" asp-controller="course">Başvuru yap(Tag Helper ile).</a></p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+     
+     </body>
+</html>
