@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\CourseApp.csproj",
+  "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\CourseApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2870,59 +2870,134 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper"
         }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MenuViewComponentTagHelper",
+        "AssemblyName": "CourseApp",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:menu",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Menu"
+        }
       }
     ],
-    "CSharpLanguageVersion": 800
+    "CSharpLanguageVersion": 703
   },
   "RootNamespace": "CourseApp",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Course\\Thanks.cshtml",
-      "TargetPath": "Views\\Course\\Thanks.cshtml",
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Menu\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Course\\Details.cshtml",
-      "TargetPath": "Views\\Course\\Details.cshtml",
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\L06UsingForms\\Index.cshtml",
+      "TargetPath": "Views\\L06UsingForms\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Course\\Apply2.cshtml",
-      "TargetPath": "Views\\Course\\Apply2.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\L03PassingDataToViews\\index.cshtml",
-      "TargetPath": "Views\\L03PassingDataToViews\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Course\\list.cshtml",
-      "TargetPath": "Views\\Course\\list.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Home\\About.cshtml",
-      "TargetPath": "Views\\Home\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Course\\Index.cshtml",
-      "TargetPath": "Views\\Course\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\Course\\Apply.cshtml",
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Course\\Apply.cshtml",
       "TargetPath": "Views\\Course\\Apply.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\CourseApp\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Course\\list.cshtml",
+      "TargetPath": "Views\\Course\\list.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\L06UsingForms\\Create.cshtml",
+      "TargetPath": "Views\\L06UsingForms\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Course\\Thanks.cshtml",
+      "TargetPath": "Views\\Course\\Thanks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\L04PartitialView\\Index.cshtml",
+      "TargetPath": "Views\\L04PartitialView\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\L04PartitialView\\About.cshtml",
+      "TargetPath": "Views\\L04PartitialView\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Course\\Apply2.cshtml",
+      "TargetPath": "Views\\Course\\Apply2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Course\\Index.cshtml",
+      "TargetPath": "Views\\Course\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\L06UsingForms\\Search.cshtml",
+      "TargetPath": "Views\\L06UsingForms\\Search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\L05ViewComponent\\Index.cshtml",
+      "TargetPath": "Views\\L05ViewComponent\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\L03PassingDataToViews\\index.cshtml",
+      "TargetPath": "Views\\L03PassingDataToViews\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Course\\Details.cshtml",
+      "TargetPath": "Views\\Course\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\Shared\\_menu.cshtml",
+      "TargetPath": "Views\\Shared\\_menu.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }

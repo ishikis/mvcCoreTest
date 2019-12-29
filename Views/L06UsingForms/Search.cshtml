@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Search";
+}
+
+<form method="get" asp-controller="L06UsingForms" asp-action="Search"
+>
+@* 
+    forma action yazmaz isek default olarak   L06UsingForms/Search a gider
+    action="L06UsingForms/Search"
+    asp-controller="L06UsingForms" asp-action="Search"
+ *@
+<div class="form-group">
+    <label for="q">Search</label>
+    <input type="Text" id="q" name="q" class="form-control">
+</div>
+<input type="submit" value="Submit" class="btn btn-primary">
+</form>

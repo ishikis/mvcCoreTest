@@ -1,0 +1,24 @@
+@model Course
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="Post">
+
+<div class="form-group">
+    <label for="name">Name</label>
+    <input asp-for="name" class="form-control">
+</div>
+
+
+<div class="form-group">
+    <label for="description">description</label>
+    <input asp-for="description" class="form-control">
+</div>
+
+<div class="form-check">
+    <input asp-for="isPublished">
+    <label class="form-check-label" for="isPublished">is Published</label>
+  </div>
+<input type="submit"  class="btn btn-primary" value="Submit">
+</form>

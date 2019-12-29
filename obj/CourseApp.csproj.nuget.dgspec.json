@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sayko\\Desktop\\source\\CourseApp\\CourseApp.csproj": {}
+    "C:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\CourseApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sayko\\Desktop\\source\\CourseApp\\CourseApp.csproj": {
+    "C:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\CourseApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sayko\\Desktop\\source\\CourseApp\\CourseApp.csproj",
+        "projectUniqueName": "C:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\CourseApp.csproj",
         "projectName": "CourseApp",
-        "projectPath": "C:\\Users\\Sayko\\Desktop\\source\\CourseApp\\CourseApp.csproj",
+        "projectPath": "C:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\CourseApp.csproj",
         "packagesPath": "C:\\Users\\Sayko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sayko\\Desktop\\source\\CourseApp\\obj\\",
+        "outputPath": "C:\\Users\\Sayko\\Desktop\\source\\mvcCoreTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -53,16 +53,23 @@
               "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
