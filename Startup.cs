@@ -38,18 +38,24 @@ namespace CourseApp
                 RequestPath = "/modules"
             });
 
+            //? degerin opsionel olmasını saglıyor
+            //süslü parantez içindeki degişlen dışındaki ise sabit metindir.
+            //{id:int:range(1,100)} id parametresine tip belirtmek istersek 
+            //{id:alpha:minlength(3)} id parametresine tip belirtmek istersek 
+            //{day:weekday} day parametresine haftanın günlerini veririz
+            
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    //?=Optional  {controller=Home}/{action=Index}/{id?}
-                    template: "{controller=Home}/{action=Index}/{id?}"
-                );
+                    template: "{controller=Home}/{action=Index}/{id?}");//Home/index/3 veya Home/index
+
+                routes.MapRoute(
+                    name: "shop",
+                    template: "shop/{action=Index}",
+                    defaults: new { controller = "Product" });//shop/index
             });
-            // app.Run(async (context) =>
-            // {
-            //     await context.Response.WriteAsync("Hello World!");
-            // });
         }
     }
 }
