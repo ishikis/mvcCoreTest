@@ -67,7 +67,7 @@ namespace CourseApp.Controllers
         }
     }
 
-    // Model içinde Kottrol etmek istersek
+    // Model seviyesinde Kottrol etmek istersek
     public class Register
     {
         [Required]//Zorunlu
