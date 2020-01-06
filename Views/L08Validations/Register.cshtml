@@ -5,6 +5,9 @@ ViewData["Title"] = "Register";
 }
 <div class="container">
     <form asp-action="Register" method="POST">
+        <!--Tüm Hata mesajlarının göstermek için -->
+        <div class="text-danger" asp-validation-summary="All"></div>
+
         <div class="form-group">
             <label asp-for="UserName">UserName</label>
             <input asp-for="UserName" class="form-control">
@@ -22,7 +25,7 @@ ViewData["Title"] = "Register";
 
         <div class="form-group">
             <label asp-for="BirthDate">BirthDate</label>
-            <input  asp-for="BirthDate" type="test" asp-format="{0:d}" class="form-control">
+            <input asp-for="BirthDate" type="test" asp-format="{0:d}" class="form-control">
         </div>
 
         <div class="form-group">

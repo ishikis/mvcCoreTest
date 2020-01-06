@@ -27,13 +27,26 @@ namespace CourseApp.Controllers
                     nameof(model.UserName),
                     "UserName Zorunlu ALan");
             }
-            if (!model.Email.Contains("@"))
+
+            if (string.IsNullOrEmpty(model.Email))
+            {
+                ModelState.AddModelError(
+                    nameof(model.Email),
+                    "Email Zorunlu ALan");
+            }
+            else if (!model.Email.Contains("@"))
             {
                 ModelState.AddModelError(
                     nameof(model.Email),
                     "Email düzgün girilmedi");
             }
-            if (model.Password.Length < 6)
+            if (string.IsNullOrEmpty(model.Password))
+            {
+                ModelState.AddModelError(
+                    nameof(model.Password),
+                    "Password Zorunlu ALan");
+            }
+            else if (model.Password.Length < 6)
             {
                 ModelState.AddModelError(
                     nameof(model.Password),
