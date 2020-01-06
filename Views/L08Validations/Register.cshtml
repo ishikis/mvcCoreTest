@@ -9,31 +9,31 @@ ViewData["Title"] = "Register";
         <div class="text-danger" asp-validation-summary="All"></div>
 
         <div class="form-group">
-            <div class="text-danger" asp-validation-summary="UserName"></div>
+            <div> <span class="text-danger" asp-validation-for="UserName"> </span></div>
             <label asp-for="UserName">UserName</label>
             <input asp-for="UserName" class="form-control">
         </div>
 
         <div class="form-group">
-            <div class="text-danger" asp-validation-summary="Email"></div>
+            <div> <span class="text-danger" asp-validation-for="Email"> </span></div>
             <label asp-for="Email">Email</label>
             <input asp-for="Email" class="form-control">
         </div>
 
         <div class="form-group">
-            <div class="text-danger" asp-validation-summary="Password"></div>
+            <div> <span class="text-danger" asp-validation-for="Password"> </span></div>
             <label asp-for="Password">Password</label>
             <input asp-for="Password" class="form-control">
         </div>
 
         <div class="form-group">
-            <div class="text-danger" asp-validation-summary="BirthDate"></div>
+            <div> <span class="text-danger" asp-validation-for="BirthDate"> </span></div>
             <label asp-for="BirthDate">BirthDate</label>
             <input asp-for="BirthDate" type="test" asp-format="{0:d}" class="form-control">
         </div>
 
         <div class="form-group">
-            <div class="text-danger" asp-validation-summary="TermsAccepted"></div>
+            <div> <span class="text-danger" asp-validation-for="TermsAccepted"> </span></div>
             <input asp-for="TermsAccepted">
             <label asp-for="TermsAccepted" class="form-check-label">
                 I Accept the Terms</label>
