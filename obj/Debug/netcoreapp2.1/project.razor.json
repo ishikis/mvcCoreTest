@@ -2912,6 +2912,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L08Validations\\Register.cshtml",
+      "TargetPath": "Views\\L08Validations\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L07ModelBindings\\Index.cshtml",
       "TargetPath": "Views\\L07ModelBindings\\Index.cshtml",
       "FileKind": "mvc"
@@ -2974,6 +2979,11 @@
     {
       "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L04PartitialView\\Index.cshtml",
       "TargetPath": "Views\\L04PartitialView\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTIISIK\\testApps\\CourseApp\\Views\\L08Validations\\Completed.cshtml",
+      "TargetPath": "Views\\L08Validations\\Completed.cshtml",
       "FileKind": "mvc"
     },
     {
