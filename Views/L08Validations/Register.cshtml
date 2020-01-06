@@ -27,6 +27,12 @@ ViewData["Title"] = "Register";
         </div>
 
         <div class="form-group">
+            <div> <span class="text-danger" asp-validation-for="RePassword"> </span></div>
+            <label asp-for="RePassword">RePassword</label>
+            <input asp-for="RePassword" class="form-control">
+        </div>
+
+        <div class="form-group">
             <div> <span class="text-danger" asp-validation-for="BirthDate"> </span></div>
             <label asp-for="BirthDate">BirthDate</label>
             <input asp-for="BirthDate" type="test" asp-format="{0:d}" class="form-control">
